@@ -1,0 +1,188 @@
+.title{
+  color: #ffffff;
+  background-color: #358b37;
+}
+.category-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.category-label {
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.product-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+  }
+  .product-card {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 14px 28px, rgba(0, 0, 0, 0.30) 0px 10px 10px;
+    border: 4px solid #ffffff;
+    background-color: #646262;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .product-image {
+    cursor: pointer;
+    width:270px;
+    height:250px;
+    margin-right: 1px;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    border-color: #000000; /* Change the border color on hover */
+    border: 3px solid;
+  }
+  .product-label {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 23px;
+    color: #ffffff;
+  }
+  .category-image{
+    width: 100px;
+    height:100px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .category-image.selected {
+    border-radius: 20px;
+    background-color: #bbbbbbde;
+    box-shadow: rgba(172, 172, 176, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  /* Buttons.css */
+  .add-to-cart-button {
+    background-color: #358b37;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .add-to-cart-button:hover {
+    background-color: #6ad76f;
+  }
+  /* ShoppingCart.css */
+.shopping-cart-container {
+  background-color: #c2c2c2;
+  padding: 10px;
+  border: 4px solid #6a6a6a;
+  border-radius: 20px;
+}
+.shopping-cart-header {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.total-price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.checkout-button {
+  background-color:  #358b37;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkout-button:hover {
+  background-color: #6ad76f;
+}
+.cart-button{
+  background-color:  #9c0707;
+  color: #fff;
+  padding: 5px 7px;
+  margin: 5px;
+  font-size: 10px;
+  border: none;
+  border-radius:8px;
+  cursor: pointer;
+}
+.cart-button:hover {
+  background-color:  #df5353;
+}
+.cartitem{
+  font-size: 18px;
+}
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+.add-item-container{
+  background-color: #c2c2c2;
+  padding: 10px;
+  border: 4px solid #6a6a6a;
+  border-radius: 20px;
+}
+form {
+  width: 100%; /* Set the form width to 100% of its container */
+  display: grid; /* Use grid layout for the form */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Create responsive grid columns, auto-fitting with a minimum of 180px and maximum of 1fr */
+  gap: 80px; /* Set the gap between grid items */
+}
+.form {
+  display: flex;
+  align-items: center;
+  margin:20px;
+  font-weight:bold;
+  color: #000000;
+}
+input {
+  flex: 1; /* Take up remaining space in the label */
+  padding: 8px;
+  box-sizing: border-box;
+}
+button.add-button {
+  background-color: #358b37;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+  width: 100px;
+  height:40px;
+  font-size: 16px;
+}
+button.add-button:hover {
+  background-color:  #6ad76f;
+}
+.ul-list{
+  padding: 20px;
+  padding-top: 0px;
+}
+.list {
+  list-style: none;
+  border: 3px solid #6a6a6a;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight:bold;
+  color: #000000;
+}
+
+strong {
+  margin: 10px;
+}
+
+
